@@ -1,0 +1,108 @@
+$ pylint pizzeria.py
+No config file found, using default configuration
+************* Module pizzeria
+C: 54,0: Line too long (86/80)
+C:115,0: Line too long (89/80)
+C:  1,0: Missing docstring
+C:  4,0:makesubsearches: Missing docstring
+C: 21,0:bylength: Missing docstring
+C: 24,0:transformreview: Missing docstring
+C: 36,0:makerank: Missing docstring
+C: 64,0:finddensity: Invalid name "r" (should match [a-z_][a-z0-9_]{2,30}$)
+C: 64,0:finddensity: Missing docstring
+C: 64,16:finddensity: Invalid name "r" (should match [a-z_][a-z0-9_]{2,30}$)
+C:108,0:makesentence: Missing docstring
+C:119,0:makefirst: Missing docstring
+C:127,0:findsentencebeginning: Missing docstring
+C:142,0:makefullsentence: Missing docstring
+C:155,0:addhighlight: Missing docstring
+C:171,0:main: Missing docstring
+
+
+Report
+======
+145 statements analysed.
+
+Raw metrics
+-----------
+
++----------+-------+------+---------+-----------+
+|type      |number |%     |previous |difference |
++==========+=======+======+=========+===========+
+|code      |143    |78.14 |140      |+3.00      |
++----------+-------+------+---------+-----------+
+|docstring |4      |2.19  |3        |+1.00      |
++----------+-------+------+---------+-----------+
+|comment   |14     |7.65  |14       |=          |
++----------+-------+------+---------+-----------+
+|empty     |22     |12.02 |21       |+1.00      |
++----------+-------+------+---------+-----------+
+
+
+
+Statistics by type
+------------------
+
++---------+-------+-----------+-----------+------------+---------+
+|type     |number |old number |difference |%documented |%badname |
++=========+=======+===========+===========+============+=========+
+|module   |1      |1          |=          |0.00        |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+|class    |0      |0          |=          |0           |0        |
++---------+-------+-----------+-----------+------------+---------+
+|method   |0      |0          |=          |0           |0        |
++---------+-------+-----------+-----------+------------+---------+
+|function |11     |11         |=          |0.00        |0.00     |
++---------+-------+-----------+-----------+------------+---------+
+
+
+
+Duplication
+-----------
+
++-------------------------+------+---------+-----------+
+|                         |now   |previous |difference |
++=========================+======+=========+===========+
+|nb duplicated lines      |0     |0        |=          |
++-------------------------+------+---------+-----------+
+|percent duplicated lines |0.000 |0.000    |=          |
++-------------------------+------+---------+-----------+
+
+
+
+Messages by category
+--------------------
+
++-----------+-------+---------+-----------+
+|type       |number |previous |difference |
++===========+=======+=========+===========+
+|convention |16     |16       |=          |
++-----------+-------+---------+-----------+
+|refactor   |0      |0        |=          |
++-----------+-------+---------+-----------+
+|warning    |0      |0        |=          |
++-----------+-------+---------+-----------+
+|error      |0      |0        |=          |
++-----------+-------+---------+-----------+
+
+
+
+Messages
+--------
+
++-----------+------------+
+|message id |occurrences |
++===========+============+
+|C0111      |12          |
++-----------+------------+
+|C0301      |2           |
++-----------+------------+
+|C0103      |2           |
++-----------+------------+
+
+
+
+Global evaluation
+-----------------
+Your code has been rated at 8.90/10 (previous run: 8.87/10)
+
